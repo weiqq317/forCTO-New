@@ -1,0 +1,32 @@
+{
+  "name": "sip-coze-bridge",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Node.js SIP client bridging Asterisk calls to Coze WebRTC via RTPEngine.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "sip",
+    "coze",
+    "webrtc",
+    "rtpengine",
+    "asterisk"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bencode": "^3.1.1",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2",
+    "pino": "^9.5.0",
+    "prom-client": "^15.1.1",
+    "sip": "^0.0.6",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
