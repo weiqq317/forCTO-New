@@ -14,4 +14,5 @@
 - 性能与 NFR 验证方案：perf-nfrs-validation.md
 - 安全加固与合规：security-hardening.md
 - 环境变量与配置：env-variables.md
+- 软件开发任务清单：development-task-checklist.md
 - 运维值班与排障手册：ops-runbook.md
