@@ -1,0 +1,42 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+logs/
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Node
+node_modules/
+.npm/
+.pnpm-store/
+yarn.lock
+pnpm-lock.yaml
+package-lock.json
+
+# Build outputs
+build/
+dist/
+coverage/
+.cache/
+.next/
+.out/
+
+# Env & secrets
+.env
+.env.*
+*.local
+
+# Editors
+.vscode/
+.idea/
+
+# OS
+Ehthumbs.db
+Icon?
+
+# Docs tooling
+.site/
+.docusaurus/
